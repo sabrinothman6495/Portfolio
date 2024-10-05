@@ -10,7 +10,7 @@ const Header = () => {
               <Link to="/" style={linkStyle}>Home</Link>
             </li>
             <li style={listItemStyle}>
-              <Link to="/about" style={linkStyle}>About</Link>
+              <Link to="/about me" style={linkStyle}>About</Link>
             </li>
             <li style={listItemStyle}>
               <Link to="/projects" style={linkStyle}>Projects</Link>
@@ -24,4 +24,3 @@ const Header = () => {
     );
   };
   export default Header;
-  

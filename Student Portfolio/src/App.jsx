@@ -1,17 +1,25 @@
 import React from 'react';
 import Header from './components/Header'; 
-import Navigation from './components/Navigation';
 import Footer from './components/Footer';
+import AboutMe from './Pages/AboutMe';     
+import Contact from './Pages/Contact';
+import Portfolio from './Pages/Portfolio';
 
-const App = () => {
+function App() {
   return (
-    <div>
+    <Router>
       <Header />
-      <h1>Welcome to my portfolio!</h1>
-      <Navigation />
+      <main>
+        <Routes>
+          <Route path="/" element={<AboutMe />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
+      </main>
       <Footer />
-
-    </div>
+    </Router>
   );
-};
+}
+
 export default App;

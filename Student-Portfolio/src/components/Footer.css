@@ -1,7 +1,7 @@
 /* Basic Footer Styling */
 footer {
-    background-color: #333; /* Dark background */
-    color: white; /* White text */
+    background-color: #333; /*  background */
+    color: white; /*  text */
     text-align: center; /* Center text */
     padding: 20px 0;
     position: relative;
@@ -31,7 +31,7 @@ footer a:hover {
     margin: 0 10px;
     display: inline-block;
     color: white;
-    font-size: 24px; /* Adjust size based on preference */
+    font-size: 24px; /* Adjust size */
     transition: color 0.3s ease;
 }
 

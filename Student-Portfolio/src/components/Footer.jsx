@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
   return (
     <footer id = "footer">
-    <p>&copy; 2024 Your Name. All rights reserved.</p>
+    <p>&copy; 2024 Sabrin Othman. All rights reserved.</p>
         <h3>Connect with me:</h3>
       <ul class="footer-icons">
         <li><a href="https://github.com/sabrinothman6495">GitHub</a></li>

@@ -10,5 +10,4 @@ function Footer() {
     </footer>
   );
 }
-console.log(Footer); 
 export default Footer;

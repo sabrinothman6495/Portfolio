@@ -1,0 +1,47 @@
+/* Basic Footer Styling */
+footer {
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    text-align: center; /* Center text */
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Footer Links */
+footer a {
+    color: #ffffff; /* White link color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Space between links */
+    font-weight: bold; /* Bold text */
+}
+
+footer a:hover {
+    color: #ff6347; /* Link hover color (tomato) */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Footer Social Icons */
+.footer-icons {
+    margin-top: 15px; /* Space between text and icons */
+}
+
+.footer-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    color: white;
+    font-size: 24px; /* Adjust size based on preference */
+    transition: color 0.3s ease;
+}
+
+.footer-icons a:hover {
+    color: #ff6347; /* Hover color for icons */
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+    footer {
+        font-size: 14px; /* Smaller text for mobile */
+    }
+}
